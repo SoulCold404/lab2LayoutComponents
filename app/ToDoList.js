@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, Pressable, View, Text, StyleSheet, SafeAreaView, platform, Platform } from 'react-native';
+import { ScrollView, Pressable, View, Text, StyleSheet, SafeAreaView, Platform } from 'react-native';
 
 
 function ToDoList(props) {
@@ -33,6 +33,7 @@ function ToDoList(props) {
 const styles = StyleSheet.create({
     container:{
         paddingTop: Platform.OS === 'android' ? 80 : 0,
+        flex: 1,
 
     },
 
